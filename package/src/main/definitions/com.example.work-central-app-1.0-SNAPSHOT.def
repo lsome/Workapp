@@ -1,0 +1,381 @@
+char-set: UTF-8
+#
+#  File exported Sun Jan 08 16:16:05 UTC 2017
+#
+begin application
+   name           : com.example.work-central-app
+begin container
+   name           : com.example.work-central-app
+   type           : 2
+   num-references : 19
+   timestamp      : 1483068571
+   owner          : Demo
+   last-changed   : developer
+   export-version : 13
+   object-prop    : 5\60079\4\23\http://www.columnit.com\90019\2\0\90016\4\1\1\90015\2\4\90002\4\28\com.example.work-central-app\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32847
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\45\com.example.work-central-app:BMC Modern Shell\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\38\com.example.work-central-app:Home View\
+}
+end
+begin view definition
+   name           : com.example.work-central-app:BMC Modern Shell
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1483068972102,
+   definition     :   "lastChangedBy" : "ARSERVER",
+   definition     :   "owner" : "developer",
+   definition     :   "name" : "com.example.work-central-app:BMC Modern Shell",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "developerId" : "http://www.columnit.com",
+   definition     :   "guid" : "com-example-work-central-app-7d909a8d-94f3-4eec-b53f-ce77e747bdcd",
+   definition     :   "layout" : "{\"layoutTemplate\":5,\"columns\":[{\"role\":\"content\",\"children\":[{\"static\":true,\"componentDefinitionId\":\"com-example-work-central-app-98f08c9e-a523-4f30-8512-85465d3a0b5f\"}]}],\"componentDefinitionId\":\"com-example-work-central-app-7d909a8d-94f3-4eec-b53f-ce77e747bdcd\"}",
+   definition     :   "inputParams" : [ ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1483068972102,
+   definition     :     "lastChangedBy" : "developer",
+   definition     :     "owner" : "developer",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "developerId" : "http://www.columnit.com",
+   definition     :     "guid" : "com-example-work-central-app-98f08c9e-a523-4f30-8512-85465d3a0b5f",
+   definition     :     "type" : "rx-shell",
+   definition     :     "propertiesByName" : {
+   definition     :       "allowAppSwitching" : "true"
+   definition     :     },
+   definition     :     "layout" : "{\"componentDefinitionId\":\"com-example-work-central-app-187f819b-1f9d-45d3-aa96-a5e668714bac\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"com-example-work-central-app-0bc17b27-a20f-4315-be0d-36405bfb05ce\"},{\"componentDefinitionId\":\"7c8a52d2-390d-4521-a014-5e621473ff27\"},{\"componentDefinitionId\":\"bf123aa8-47d5-4ea5-87d7-d56e03c4d4ba\"}]}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1483068972102,
+   definition     :       "lastChangedBy" : "developer",
+   definition     :       "owner" : "developer",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "developerId" : "http://www.columnit.com",
+   definition     :       "guid" : "com-example-work-central-app-0bc17b27-a20f-4315-be0d-36405bfb05ce",
+   definition     :       "type" : "rx-shell-menu-item",
+   definition     :       "propertiesByName" : {
+   definition     :         "viewDefinitionName" : "4c25e974-18d7-4559-90e6-996efbbdba93",
+   definition     :         "viewParams" : null,
+   definition     :         "menuItemName" : "35700cc0-e859-408e-b664-b8ed4c2c8695",
+   definition     :         "actionName" : "rxShellNavigateToViewAction"
+   definition     :       }
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1483068972102,
+   definition     :       "lastChangedBy" : "developer",
+   definition     :       "owner" : "developer",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "developerId" : "http://www.columnit.com",
+   definition     :       "guid" : "7c8a52d2-390d-4521-a014-5e621473ff27",
+   definition     :       "type" : "rx-shell-menu-group",
+   definition     :       "propertiesByName" : {
+   definition     :         "menuGroupName" : "e5d62428-559a-4465-915e-fde619157113"
+   definition     :       },
+   definition     :       "layout" : "{\"componentDefinitionId\":\"2163a660-f718-4892-ae34-4fcb96099fd1\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"7387485e-3550-4174-a3dc-d7ba9dd1e0da\"}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1483068972102,
+   definition     :         "lastChangedBy" : "developer",
+   definition     :         "owner" : "developer",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "developerId" : "http://www.columnit.com",
+   definition     :         "guid" : "7387485e-3550-4174-a3dc-d7ba9dd1e0da",
+   definition     :         "type" : "rx-shell-menu-item",
+   definition     :         "propertiesByName" : {
+   definition     :           "viewDefinitionName" : "86449850-167a-4be4-9259-4dd4af10589e",
+   definition     :           "viewParams" : null,
+   definition     :           "menuItemName" : "dcc98739-c017-4e08-819b-eb69081bd041",
+   definition     :           "actionName" : "rxShellNavigateToViewAction"
+   definition     :         }
+   definition     :       } ]
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "version" : null,
+   definition     :       "lastUpdateTime" : 1483068972102,
+   definition     :       "lastChangedBy" : "developer",
+   definition     :       "owner" : "developer",
+   definition     :       "name" : null,
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "developerId" : "http://www.columnit.com",
+   definition     :       "guid" : "bf123aa8-47d5-4ea5-87d7-d56e03c4d4ba",
+   definition     :       "type" : "rx-shell-menu-group",
+   definition     :       "propertiesByName" : {
+   definition     :         "menuGroupName" : "201d7f70-e883-46e8-88a2-233827e5979f"
+   definition     :       },
+   definition     :       "layout" : "{\"componentDefinitionId\":\"edd25343-e82d-4d44-a69a-352a35a2dfbb\",\"columns\":[{\"children\":[{\"componentDefinitionId\":\"01d31f80-3580-4e79-a3e4-0667d9010309\"}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "version" : null,
+   definition     :         "lastUpdateTime" : 1483068972102,
+   definition     :         "lastChangedBy" : "developer",
+   definition     :         "owner" : "developer",
+   definition     :         "name" : null,
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "developerId" : "http://www.columnit.com",
+   definition     :         "guid" : "01d31f80-3580-4e79-a3e4-0667d9010309",
+   definition     :         "type" : "rx-shell-menu-item",
+   definition     :         "propertiesByName" : {
+   definition     :           "viewDefinitionName" : "a29ccaec-2de8-40c2-bc4c-be72437600b8",
+   definition     :           "viewParams" : null,
+   definition     :           "menuItemName" : "b35ca238-5efc-4d08-b7bd-c37b54e02a63",
+   definition     :           "actionName" : "rxShellNavigateToViewAction"
+   definition     :         }
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP",
+   definition     :       "name" : "Public"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : true,
+   definition     :   "type" : "SHELL"
+   definition     : }
+end
+begin view definition
+   name           : com.example.work-central-app:Home View
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1483068571839,
+   definition     :   "lastChangedBy" : "developer",
+   definition     :   "owner" : "developer",
+   definition     :   "name" : "com.example.work-central-app:Home View",
+   definition     :   "tags" : null,
+   definition     :   "description" : "",
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "developerId" : "http://www.columnit.com",
+   definition     :   "guid" : "4c25e974-18d7-4559-90e6-996efbbdba93",
+   definition     :   "layout" : "{\"layoutTemplate\":1,\"columns\":[{\"children\":[{\"static\":true,\"role\":\"header\",\"height\":100,\"columns\":[{\"children\":[{\"componentDefinitionId\":\"97441b51-6959-427a-8c78-02fc8bf5dc68\"}]}],\"componentDefinitionId\":\"3b1892fd-97b8-4311-9b3e-b20701e6c535\"},{\"static\":true,\"role\":\"content\",\"columns\":[{\"children\":[]}],\"componentDefinitionId\":\"475158c9-fa95-4f6f-bb51-2f1c9d1d3acd\"}]}],\"componentDefinitionId\":\"4c25e974-18d7-4559-90e6-996efbbdba93\"}",
+   definition     :   "inputParams" : [ ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :     "version" : null,
+   definition     :     "lastUpdateTime" : 1483068571840,
+   definition     :     "lastChangedBy" : "developer",
+   definition     :     "owner" : "developer",
+   definition     :     "name" : null,
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "developerId" : "http://www.columnit.com",
+   definition     :     "guid" : "97441b51-6959-427a-8c78-02fc8bf5dc68",
+   definition     :     "type" : "rx-rich-text",
+   definition     :     "propertiesByName" : {
+   definition     :       "autoFill" : "false",
+   definition     :       "html" : "85717e56-fae6-443c-9e1f-c97af08f56c5",
+   definition     :       "hidden" : "0"
+   definition     :     }
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP",
+   definition     :       "name" : "Public"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : true,
+   definition     :   "type" : "REGULAR"
+   definition     : }
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z122O8Z12277ZM
+   timestamp      : 1483068972
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : 201d7f70-e883-46e8-88a2-233827e5979f
+   owner-objects  : 17\bf123aa8-47d5-4ea5-87d7-d56e03c4d4ba
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Tasks
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z122O8Z12277Z8
+   timestamp      : 1483068972
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : 35700cc0-e859-408e-b664-b8ed4c2c8695
+   owner-objects  : 17\com-example-work-central-app-0bc17b27-a20f-4315-be0d-36405bfb05ce
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Home
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z1BHO8Z1BH77TX
+   timestamp      : 1483068571
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : 85717e56-fae6-443c-9e1f-c97af08f56c5
+   owner-objects  : 17\97441b51-6959-427a-8c78-02fc8bf5dc68
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : <p><strong><span style="color:#00FF00"><span style="font-size:28px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &
+   string-text    : &nbsp; &nbsp; &nbsp;Welcome to Work Central</span></span></strong></p>
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z122O8Z12277ZL
+   timestamp      : 1483068972
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : b35ca238-5efc-4d08-b7bd-c37b54e02a63
+   owner-objects  : 17\01d31f80-3580-4e79-a3e4-0667d9010309
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : List
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z122O8Z12277Z9
+   timestamp      : 1483068972
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : dcc98739-c017-4e08-819b-eb69081bd041
+   owner-objects  : 17\7387485e-3550-4174-a3dc-d7ba9dd1e0da
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : List
+end
+begin localizable string
+   name           : LSGA5FKLHY4WJAO8Z122O8Z12277ZK
+   timestamp      : 1483068972
+   owner          : developer
+   last-changed   : developer
+   bundle         : com.example.work-central-app
+   stringId       : e5d62428-559a-4465-915e-fde619157113
+   owner-objects  : 17\7c8a52d2-390d-4521-a014-5e621473ff27
+   object-prop    : 1\90016\4\1\1\
+   locale         : default
+   string-text    : Orders
+end
+end
+
